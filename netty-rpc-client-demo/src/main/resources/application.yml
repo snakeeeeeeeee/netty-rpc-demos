@@ -1,0 +1,15 @@
+netty-rpc:
+  client:
+    params:
+      system-id: test-client
+      sync-timeout: 120
+      target-port: 7777
+      target-ip: 127.0.0.1
+      targetServerId: service1
+
+server:
+  port: 12345
+
+spring:
+  main:
+    allow-bean-definition-overriding: true

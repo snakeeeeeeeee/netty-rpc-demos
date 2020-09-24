@@ -1,0 +1,6 @@
+netty-rpc:
+  server:
+    sync-timeout: 120
+    port: 7777
+server:
+  port: 6666
