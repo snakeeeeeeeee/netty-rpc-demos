@@ -28,7 +28,7 @@ public enum ResponseCode {
     /**
      * 超时
      */
-    TIMEOUT(505, "red time out");
+    TIMEOUT(505, "time out");
 
 
     private int code;
